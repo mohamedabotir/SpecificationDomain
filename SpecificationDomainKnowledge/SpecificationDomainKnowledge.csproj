@@ -4,6 +4,27 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SpecificationDomainKnowlege Remove your complexity</Title>
+    <Authors>Mohamed Abotir</Authors>
+    <Description>Packege to ease Specification pattern it's free and open source </Description>
+    <Copyright>mohamed abotir © 2024</Copyright>
+    <PackageProjectUrl>https://github.com/mohamedabotir/SpecificationDomain</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mohamedabotir/SpecificationDomain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>design patterns; software engineering;</PackageTags>
+    <PackageReleaseNotes>- apply specification to encapsulate your domain knowldge
+-composite common operations like not , and , or</PackageReleaseNotes>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\SpecificationDomain\docs\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
